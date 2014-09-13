@@ -1,4 +1,4 @@
 swiftris
 ========
 
-Tetris written in Swift for the iOS platform
+Tetris written in Swift for iOS
