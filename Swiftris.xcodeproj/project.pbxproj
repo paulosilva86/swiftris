@@ -28,6 +28,14 @@
 		51223DA619D06F9400E5BFF9 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51223DA019D06F9400E5BFF9 /* whitebg@2x.png */; };
 		51223DA819D0740000E5BFF9 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51223DA719D0740000E5BFF9 /* Array2D.swift */; };
 		517A31DC19D18ED60016A32A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A31DB19D18ED60016A32A /* Block.swift */; };
+		51EE6E4119D1C438007D3223 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4019D1C438007D3223 /* Shape.swift */; };
+		51EE6E4319D1DC85007D3223 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4219D1DC85007D3223 /* SquareShape.swift */; };
+		51EE6E4519D1DD84007D3223 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4419D1DD84007D3223 /* TShape.swift */; };
+		51EE6E4719D1E1CA007D3223 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4619D1E1CA007D3223 /* LineShape.swift */; };
+		51EE6E4919D1E217007D3223 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4819D1E217007D3223 /* LShape.swift */; };
+		51EE6E4B19D1E248007D3223 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4A19D1E248007D3223 /* JShape.swift */; };
+		51EE6E4D19D1E26D007D3223 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4C19D1E26D007D3223 /* SShape.swift */; };
+		51EE6E4F19D1E28E007D3223 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4E19D1E28E007D3223 /* ZShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +74,14 @@
 		51223DA019D06F9400E5BFF9 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		51223DA719D0740000E5BFF9 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		517A31DB19D18ED60016A32A /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		51EE6E4019D1C438007D3223 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = ../Shape.swift; sourceTree = "<group>"; };
+		51EE6E4219D1DC85007D3223 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		51EE6E4419D1DD84007D3223 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		51EE6E4619D1E1CA007D3223 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		51EE6E4819D1E217007D3223 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		51EE6E4A19D1E248007D3223 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		51EE6E4C19D1E26D007D3223 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		51EE6E4E19D1E28E007D3223 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,7 @@
 		51223D6719D0695700E5BFF9 /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				51EE6E4019D1C438007D3223 /* Shape.swift */,
 				51223D6A19D0695700E5BFF9 /* AppDelegate.swift */,
 				51223D6E19D0695700E5BFF9 /* GameScene.swift */,
 				517A31DB19D18ED60016A32A /* Block.swift */,
@@ -118,6 +135,13 @@
 				51223D8E19D06F3C00E5BFF9 /* Sounds */,
 				51223D6819D0695700E5BFF9 /* Supporting Files */,
 				51223DA719D0740000E5BFF9 /* Array2D.swift */,
+				51EE6E4219D1DC85007D3223 /* SquareShape.swift */,
+				51EE6E4419D1DD84007D3223 /* TShape.swift */,
+				51EE6E4619D1E1CA007D3223 /* LineShape.swift */,
+				51EE6E4819D1E217007D3223 /* LShape.swift */,
+				51EE6E4A19D1E248007D3223 /* JShape.swift */,
+				51EE6E4C19D1E26D007D3223 /* SShape.swift */,
+				51EE6E4E19D1E28E007D3223 /* ZShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -277,10 +301,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EE6E4919D1E217007D3223 /* LShape.swift in Sources */,
+				51EE6E4319D1DC85007D3223 /* SquareShape.swift in Sources */,
 				51223D6F19D0695700E5BFF9 /* GameScene.swift in Sources */,
+				51EE6E4B19D1E248007D3223 /* JShape.swift in Sources */,
+				51EE6E4119D1C438007D3223 /* Shape.swift in Sources */,
 				51223DA819D0740000E5BFF9 /* Array2D.swift in Sources */,
+				51EE6E4719D1E1CA007D3223 /* LineShape.swift in Sources */,
+				51EE6E4D19D1E26D007D3223 /* SShape.swift in Sources */,
+				51EE6E4519D1DD84007D3223 /* TShape.swift in Sources */,
 				517A31DC19D18ED60016A32A /* Block.swift in Sources */,
 				51223D7119D0695700E5BFF9 /* GameViewController.swift in Sources */,
+				51EE6E4F19D1E28E007D3223 /* ZShape.swift in Sources */,
 				51223D6B19D0695700E5BFF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
