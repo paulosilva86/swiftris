@@ -27,7 +27,7 @@ enum BlockColor: Int, Printable {
       return "teal"
     case .Yellow:
       return "yellow"
-    }
+      }
   }
   
   var description: String {
