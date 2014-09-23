@@ -36,6 +36,7 @@
 		51EE6E4B19D1E248007D3223 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4A19D1E248007D3223 /* JShape.swift */; };
 		51EE6E4D19D1E26D007D3223 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4C19D1E26D007D3223 /* SShape.swift */; };
 		51EE6E4F19D1E28E007D3223 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E4E19D1E28E007D3223 /* ZShape.swift */; };
+		51EE6E5119D1ECDA007D3223 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6E5019D1ECDA007D3223 /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		51EE6E4A19D1E248007D3223 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		51EE6E4C19D1E26D007D3223 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		51EE6E4E19D1E28E007D3223 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		51EE6E5019D1ECDA007D3223 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				51EE6E4A19D1E248007D3223 /* JShape.swift */,
 				51EE6E4C19D1E26D007D3223 /* SShape.swift */,
 				51EE6E4E19D1E28E007D3223 /* ZShape.swift */,
+				51EE6E5019D1ECDA007D3223 /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				51EE6E4319D1DC85007D3223 /* SquareShape.swift in Sources */,
 				51223D6F19D0695700E5BFF9 /* GameScene.swift in Sources */,
 				51EE6E4B19D1E248007D3223 /* JShape.swift in Sources */,
+				51EE6E5119D1ECDA007D3223 /* Swiftris.swift in Sources */,
 				51EE6E4119D1C438007D3223 /* Shape.swift in Sources */,
 				51223DA819D0740000E5BFF9 /* Array2D.swift in Sources */,
 				51EE6E4719D1E1CA007D3223 /* LineShape.swift in Sources */,
