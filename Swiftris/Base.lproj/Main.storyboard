@@ -16,9 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8qK-xp-JNh" appends="YES" id="khz-WR-3eU"/>
+                            <outletCollection property="gestureRecognizers" destination="tDX-ML-zJj" appends="YES" id="dXc-Ic-bha"/>
+                            <outletCollection property="gestureRecognizers" destination="JAQ-vv-Xec" appends="YES" id="uRm-gR-a3m"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8qK-xp-JNh">
+                    <connections>
+                        <action selector="didTap:" destination="LVB-YS-i5n" id="VTS-Ph-7n5"/>
+                        <outlet property="delegate" destination="LVB-YS-i5n" id="ZkV-8s-jFr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="tDX-ML-zJj">
+                    <connections>
+                        <action selector="didPan:" destination="LVB-YS-i5n" id="uEq-MQ-SUO"/>
+                        <outlet property="delegate" destination="LVB-YS-i5n" id="8s2-6g-0gL"/>
+                    </connections>
+                </panGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="JAQ-vv-Xec">
+                    <connections>
+                        <action selector="didSwipe:" destination="LVB-YS-i5n" id="3Fj-KZ-0fl"/>
+                        <outlet property="delegate" destination="LVB-YS-i5n" id="4ho-HJ-DIh"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
         </scene>
     </scenes>
